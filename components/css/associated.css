@@ -1,0 +1,20 @@
+/**
+ * Abq RS Associated - Css
+ *
+ * Arquivo de estilização do corpo da página home.
+ *
+ * @package Abq RS
+ * @subpackage Associated
+ * @author Hiperativa Design
+ * @since 1.0.0
+ */
+
+.row .row-container .row-item .row-item-title  {
+}
+.row .row-container .row-item .btn-primary  {
+	background-color: #0091E3;
+	color: #fff;
+	padding: 8px 18px;
+	border-radius: 5px;
+	text-transform: uppercase;
+}

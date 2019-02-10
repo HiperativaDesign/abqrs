@@ -1,0 +1,99 @@
+/*
+Theme Name: Abq RS
+Theme URI: n/a
+Author: Hiperativa Design
+Author URI: http://hiperativa.webflow.io
+Description: Tema criado para a plataforma da ABQ RS.
+Version: 1.0
+Text Domain: abq
+Tags: theme-options, custom-header, custom-background, custom-menu, custom-colors, translation-ready, featured-images, full-width-template, one-column, editor-style
+*/
+
+@charset "UTF-8";
+
+* { padding: 0; margin: 0; border: 0; box-sizing: border-box; }
+
+body,div,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,button,form,input,textarea,p,th,td { padding: 0; margin: 0; box-sizing: border-box; }
+
+/* Modified as appropriate */
+
+body { background:#fff;color:#333;font-size:14px; font-family: 'Open Sans', 'Archivo', sans-serif; /*font-family:"SimSun","Times New Roman","Arial Narrow";*/ }
+
+/* A short reference values: 'or"" */
+
+q:before,q:after {cozntent:'';}
+
+/* Abbreviations, pictures without borders */
+
+fieldset,img {border: 0 none;}
+
+/* Remove special marking the font and font size */
+
+strong,th { font-weight: normal;font-style: normal; }
+
+/* The frame table were combined into a single frame,
+specify the separation between the cell border boundary in the model of distance is 0*/
+
+table { border-collapse: collapse;border-spacing: 0; }
+
+/* The table header and content of the left shows */
+
+th { text-align: left; }
+input,img,select { vertical-align:middle; }
+
+/* Clear list style */
+
+ol,ul { list-style: none; }
+
+/* The input control fonts */
+
+input,button,textarea,select,option { font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit; }
+
+/* The caption element style clearance */
+
+h1,h2,h3,h4,h5,h6 { font-weight: normal;font-size: 100%; }
+
+/* Link style, color can be modified as appropriate */
+
+a {text-decoration:none;}
+a:link {color:#009;}
+a:visited {color:#800080;}
+a:hover,a:active,a:focus {color:#c00; text-decoration:underline;} 
+
+/* Mouse style */
+
+input[type="submit"] {cursor: pointer;}
+button {cursor: pointer;}
+input::-moz-focus-inner { border: 0; padding: 0;}
+
+.clear {clear:both;}
+
+/** 
+ * Grids
+ *
+ * Cada grid tem um tamanho de 70px e margin de 29px
+ */
+
+.grid-1  { width: 100%; max-width: 70px;   margin: 0 29px; }
+.grid-2  { width: 100%; max-width: 169px;  margin: 0 29px; }
+.grid-3  { width: 100%; max-width: 268px;  margin: 0 29px; }
+.grid-4  { width: 100%; max-width: 367px;  margin: 0 29px; }
+.grid-5  { width: 100%; max-width: 466px;  margin: 0 29px; }
+.grid-6  { width: 100%; max-width: 565px;  margin: 0 29px; }
+.grid-7  { width: 100%; max-width: 664px;  margin: 0 29px; }
+.grid-8  { width: 100%; max-width: 763px;  margin: 0 29px; }
+.grid-9  { width: 100%; max-width: 862px;  margin: 0 29px; }
+.grid-10 { width: 100%; max-width: 961px;  margin: 0 29px; }
+.grid-11 { width: 100%; max-width: 1060px; margin: 0 29px; }
+.grid-12 { width: 100%; max-width: 1160px; margin: 0 29px; }
+
+/** 
+ * Flexbox
+ *
+ * Padronização de classes referentes ao display flex.
+ */
+
+.d-flex { display: -webkit-flex; display: flex; }
+.d-flex.d-f-row { flex-flow: row; }
+.d-flex.d-f-column { flex-flow: column; }
+.d-flex.d-f-space-between { justify-content: space-between; }

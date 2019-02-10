@@ -1,0 +1,92 @@
+/**
+ * Abq RS Navbar - Css
+ *
+ * Arquivo de estilização da barra de navegação (a azulzinha) do site.
+ *
+ * @package Abq RS
+ * @subpackage Navbar
+ * @author Hiperativa Design
+ * @since 1.0.0
+ */
+ 
+nav.navbar {
+ 	width: 100%;
+ 	height: auto;
+ 	display: block;
+}
+
+/** 
+ * Cores padrão do Navbar
+ *
+ * Primary
+ */
+
+nav.navbar.navbar-primary { background-color: #0091E3; }
+
+/** 
+ * Container que pertence ao Navbar
+ */
+
+nav.navbar div.navbar-container {
+ 	width: 100%;
+	max-width: 1160px;
+ 	margin: auto;
+ 	padding: 20px 0;
+ 	display: -webkit-flex;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/** 
+ * Logo do site
+ */
+
+nav.navbar .brand {
+	width: 200px;
+	height: auto;
+}
+
+nav.navbar .brand a.brand-link { width: 100%; }
+nav.navbar .brand a.brand-link img.brand-img { width: 140px; }
+
+/** 
+ * Barra de navegação
+ *
+ * Contém a estilização da estrutura da barra de navegação.
+ * Lista não ordenada.
+ * Item da lista.
+ * Link.
+ */
+
+nav.navbar ul.navbar-list { 
+ 	list-style: none;
+ 	padding-left: 0; 
+ 	width: auto;
+ 	display: flex;
+ 	align-items: center;
+}
+nav.navbar ul.navbar-list li.navbar-item {
+	display: inline-block;
+}
+nav.navbar ul.navbar-list li.navbar-item a.navbar-link {
+	text-decoration: none;
+	padding: 10px;
+	color: #FFF;
+}
+nav.navbar ul.navbar-list li.navbar-item i.icon-cart-white, nav.navbar ul.navbar-list li.navbar-item i.icon-search-white {
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin: 0 10px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+nav.navbar ul.navbar-list li.navbar-item i.icon-cart-white {
+	background-image: url('../../images/icon/cart-white.svg');
+}
+nav.navbar ul.navbar-list li.navbar-item i.icon-search-white {
+	background-image: url('../../images/icon/search-white.svg');
+}

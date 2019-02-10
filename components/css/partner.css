@@ -1,0 +1,71 @@
+/**
+ * Abq RS Partner - Css
+ *
+ * Arquivo de estilização do container que contém os parceiros da AbqRS.
+ *
+ * @package Abq RS
+ * @subpackage Footer
+ * @author Hiperativa Design
+ * @since 1.0.0
+ */
+
+.partner { width: 100%; }
+
+/* Container - Partner */
+
+.partner .partner-container {
+	margin: auto;
+	text-align: center;
+}
+
+/* Titulo e subtítulo - Partner */
+
+.partner .partner-container .partner-title, .partner .partner-container .partner-subtitle { 
+	padding: 20px 0;
+	width: 50%;
+	margin: auto;
+}
+
+.partner .partner-container .partner-title h1.partner-title-text {
+	font-size: 1.6em;
+	color: #333;
+	font-weight: bold;
+}
+
+.partner .partner-container .partner-subtitle p.partner-subtitle-text {
+	font-size: 1em;
+	color: #333;
+}
+
+/* Slider Title - Slick */
+
+.partner .partner-container .partner-slider-title {
+	margin: auto;
+	padding: 20px 0;
+}
+
+.partner .partner-container .partner-slider-title p.partner-slider-title-text { font-weight: bold; }
+
+/* Slider - Slick */
+
+.partner .partner-container .partner-slider {
+	width: 80%;
+	margin: auto;
+	padding: 20px 0;
+}
+
+.partner .partner-container .partner-slider .slick-prev:before,
+.partner .partner-container .partner-slider .slick-next:before {
+	color: #666;
+}
+
+.partner .partner-container .partner-slider .item {
+	background-color: #333;
+	height: 114px;
+	margin: 0 10px;
+}
+
+.partner .partner-container .partner-slider .item img {
+	width: 100%;
+	height: 100%;
+}

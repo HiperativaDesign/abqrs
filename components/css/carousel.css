@@ -1,0 +1,73 @@
+/**
+ * Abq RS Carousel - Css
+ *
+ * Arquivo de estilização do slider de imagens da página home.
+ * Integrado com o Slick Slider.
+ *
+ * @package Abq RS
+ * @subpackage Carousel
+ * @author Hiperativa Design
+ * @since 1.0.0
+ */
+
+header.carousel {
+	width: 100%;
+	height: 460px;
+	overflow: hidden;
+}
+
+/* Items - Slick Slider */
+
+header.carousel .item {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+/* Banner - Carousel */
+
+header.carousel .item .carousel-banner {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+header.carousel .item .carousel-banner img {
+	width: 100%;
+}
+
+/* Conteúdo - Carousel */
+
+header.carousel .item .carousel-content {
+	position: absolute;
+	left: 15%;
+	top: 90px;
+	width: 40%;
+	height: 300px;
+}
+
+/* Título - Carousel */
+
+header.carousel .item .carousel-content .carousel-title h1 {
+	color: #fff;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+/* Subtítulo - Carousel */
+
+header.carousel .item .carousel-content .carousel-subtitle p {
+	color: #fff;
+	padding: 20px 0;
+	line-height: 24px;
+}
+
+/* Link - Carousel */
+
+header.carousel .item .carousel-content .carousel-subtitle p a {
+	background-color: #0091E3;
+	color: #fff;
+	padding: 8px 18px;
+	border-radius: 5px;
+	text-transform: uppercase;
+}

@@ -1,0 +1,154 @@
+/**
+ * Abq RS Footer - Css
+ *
+ * Arquivo de estilização do rodapé de navegação do site.
+ *
+ * @package Abq RS
+ * @subpackage Footer
+ * @author Hiperativa Design
+ * @since 1.0.0
+ */
+
+/*
+ * Social Media
+ */
+
+.social-media {
+	width: 100%;
+	background-color: #F9FAFC;
+}
+
+/* Container */
+
+.social-media .container-social-media {
+	display: flex;
+	flex-flow: wrap;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	padding: 20px 0;
+}
+
+/* Logo - Social Media */
+
+.social-media .container-social-media .social-media-item {
+	display: block;
+	padding: 20px 0px;
+	width: 50%;
+}
+.social-media .container-social-media .social-media-item img.social-media-logo {
+	width: 120px;
+}
+
+/* Item - Social Media */
+
+.social-media .container-social-media .social-media-item .social-media-title {
+	width: 100%;
+	text-align: right;
+	padding-bottom: 10px;
+}
+
+.social-media .container-social-media .social-media-item .content-icon {
+	width: 100%;
+	display: flex;
+	flex-flow: wrap;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+}
+
+.social-media .container-social-media .social-media-item .content-icon .social-media-icon {
+	background-color: transparent;
+	border-radius: 25px;
+	margin: 0 10px;
+	height: 32px;
+	width: 32px;
+}
+
+.social-media .container-social-media .social-media-item .content-icon .social-media-icon a.item-icon { width: 100%; }
+.social-media .container-social-media .social-media-item .content-icon .social-media-icon a.item-icon img.fb-icon,
+.social-media .container-social-media .social-media-item .content-icon .social-media-icon a.item-icon img.ig-icon,
+.social-media .container-social-media .social-media-item .content-icon .social-media-icon a.item-icon img.tt-icon {
+	width: 100%;
+}
+
+/*
+ * Footer
+ */
+
+footer.global-footer {
+	width: 100%;
+	background-color: #fff;
+	padding: 20px 0;
+}
+
+/* Container - Footer */
+
+footer.global-footer .footer-container {
+	display: flex;
+	flex-flow: wrap;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin: auto;
+	padding: 20px 0;
+}
+
+/* Lista - Footer */
+
+footer.global-footer .footer-container .footer-list {
+	width: 33.33%;
+	padding: 20px 0;
+}
+
+/* Item - Footer */
+
+footer.global-footer .footer-container .footer-list li.footer-item { list-style: none; }
+
+footer.global-footer .footer-container .footer-list li.footer-item a.footer-link {
+	color: #333;
+	line-height: 50px;
+}
+
+/* Newsletter - Footer */
+
+footer.global-footer .footer-container .footer-list .newsletter-title { padding: 14px 0; }
+
+footer.global-footer .footer-container .footer-list .newsletter-title h1 { font-size: 1.2em; }
+
+/* Newsletter Form - Footer */
+
+footer.global-footer .footer-container .footer-list form.newsletter .form-title {
+	padding: 14px 0;
+}
+
+footer.global-footer .footer-container .footer-list form.newsletter .form-group {
+	padding: 14px 0;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+}
+
+footer.global-footer .footer-container .footer-list form.newsletter .form-group .newsletter-input {
+	width: 80%;
+	padding: 4px 6px;
+	border: 1px solid #333;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+footer.global-footer .footer-container .footer-list form.newsletter .form-group .newsletter-button {
+	color: #fff;
+	padding: 4px 16px;
+	background-color: #333;
+	border: 1px solid #333;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+footer.global-footer .footer-container .footer-list form.newsletter .form-group .newsletter-button:hover {
+	cursor: pointer;
+}
+
+footer.global-footer .footer-container .footer-list form.newsletter .form-info {
+	padding: 14px 0;
+}
