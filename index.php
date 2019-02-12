@@ -1,6 +1,6 @@
 <?php
 /**
- * Template principal
+ * Template Name: Home
  *
  * Este é o template referente ao site da ABQRS. Criada, desenvolvida
  * e estilizada com muito amor e carinho pela Hiperativa design.
@@ -16,7 +16,10 @@ get_header();
 include("template/homepage/carousel.php");
 include("template/homepage/partner.php");
 include("template/homepage/recent-posts.php");
+include("template/homepage/counters.php");
 include("template/homepage/associated.php");
+include("template/homepage/comments.php");
+include("template/homepage/joinus.php");
 
 // Footer
 get_footer();

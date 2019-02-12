@@ -1,0 +1,30 @@
+/**
+ * Abq RS Values - Css
+ *
+ * Arquivo de estilização do corpo da página quem somos.
+ *
+ * @package Abq RS
+ * @subpackage Values
+ * @author Hiperativa Design
+ * @since 1.0.0
+ */
+
+/* Container */
+
+.row .container-values {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin: auto;
+	padding: 20px 0;
+}
+
+/* Logo - Social Media */
+
+.row .container-values .values-item {
+	display: block;
+	padding: 20px 0px;
+	width: 28%;
+}
+.row .container-values .values-item .values-list { padding: 10px 0; }
+.row .container-values .values-item .values-list .values-title { font-weight: bold; }

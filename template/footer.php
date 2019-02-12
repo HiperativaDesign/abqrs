@@ -40,8 +40,8 @@
 					<label class="newsletter-subtitle">Deixe seu e-mail:</label>
 				</div>
 				<div class="form-group">
-					<input type="email" name="email" class="newsletter-input">
-					<input type="button" name="send" class="newsletter-button" value="Enviar">
+					<input type="email" name="email" class="newsletter-input" required>
+					<input type="button" name="send" class="newsletter-button button-black" value="Enviar">
 				</div>
 				<div class="form-info">
 					<p class="">Av. Itaqui, 45 - Bairro Petrópolis, 90460140 Porto Alegre, Brasil</p>

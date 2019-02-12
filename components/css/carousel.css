@@ -65,9 +65,12 @@ header.carousel .item .carousel-content .carousel-subtitle p {
 /* Link - Carousel */
 
 header.carousel .item .carousel-content .carousel-subtitle p a {
-	background-color: #0091E3;
-	color: #fff;
+	display: block;
+	width: 130px;
 	padding: 8px 18px;
+	color: #fff;
+	background-color: #0091E3;
 	border-radius: 5px;
+	text-align: center;
 	text-transform: uppercase;
 }

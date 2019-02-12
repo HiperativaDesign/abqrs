@@ -44,7 +44,7 @@ add_theme_support('custom-background');
 add_theme_support('post-thumbnails');
 
 // Post types adicionais
-function add_post_types() {
+function add_slide_type() {
     // Slide
     register_post_type('slide',
         array(
@@ -59,5 +59,21 @@ function add_post_types() {
         )
     );
 }
-add_action('init', 'add_post_types');
+add_action('init', 'add_slide_type');
 
+function add_comment_type() {
+    // Slide
+    register_post_type('comment',
+        array(
+            'labels' => array(
+                'name' => __('Reviews'),
+                'singular_name' => __('Opinion')
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'menu_icon' => 'dashicons-format-quote',
+            'supports' => array('title', 'thumbnail', 'editor'),
+        )
+    );
+}
+add_action('init', 'add_comment_type');

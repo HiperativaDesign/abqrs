@@ -1,5 +1,5 @@
-<div class="partner">
-	<div class="grid-12 partner-container">
+<div class="partner padding-y">
+	<div class="grid-12 padding-y partner-container">
 		<div class="partner-title">
 			<h1 class="partner-title-text">ABQRS completou 80 anos de atuação divulgando Química no Rio Grande do Sul!</h1>
 		</div>

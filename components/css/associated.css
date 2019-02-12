@@ -9,12 +9,42 @@
  * @since 1.0.0
  */
 
-.row .row-container .row-item .row-item-title  {
+.benefits .benefits-countainer { margin: auto; }
+
+.benefits .benefits-countainer .benefits-header h2 {
+	font-size: 1.4em;
+	font-weight: bold;
 }
-.row .row-container .row-item .btn-primary  {
-	background-color: #0091E3;
-	color: #fff;
-	padding: 8px 18px;
+
+.benefits .benefits-countainer .benefits-body, .benefits .benefits-countainer .benefits-body .benefits-content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+.benefits .benefits-countainer .benefits-body .benefits-content { margin: 20px 0; }
+
+.benefits .benefits-countainer .benefits-body .benefits-item {
+	width: 30%;
+	padding: 20px;
+	border: 1px solid #EFF2F7;
 	border-radius: 5px;
-	text-transform: uppercase;
+	background-color: transparent;
+	transition: background-color .3s;
+}
+
+.benefits .benefits-countainer .benefits-body .benefits-item:hover {
+	background-color: #EFF2F7;
+}
+
+.benefits .benefits-countainer .benefits-body .benefits-item .benefits-item-logo {
+	text-align: center;
+	padding: 10px;
+}
+
+.benefits .benefits-countainer .benefits-body .benefits-item .benefits-item-title {
+	width: 70%;
+	margin: auto;
+	padding: 10px 0;
+	text-align: center;
 }

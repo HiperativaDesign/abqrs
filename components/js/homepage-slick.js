@@ -11,5 +11,10 @@ $(document).ready(function(){
 		infinite: true,
 		slidesToShow: 5,
 		slideToScroll: 1
-	})
+	});
+	$('.comment-slider').slick({
+		infinite: true,
+		slidesToShow: 3,
+		slideToScroll: 1
+	});
 });

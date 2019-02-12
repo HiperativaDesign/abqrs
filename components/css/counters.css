@@ -1,0 +1,39 @@
+/**
+ * Abq RS Counters - Css
+ *
+ * Arquivo de estilização do corpo da página home.
+ *
+ * @package Abq RS
+ * @subpackage Counters
+ * @author Hiperativa Design
+ * @since 1.0.0
+ */
+
+/*
+ * Counters
+ */
+
+.counters {
+	width: 674px;
+	margin: -40px auto 40px;
+	border-radius: 5px;
+	box-shadow: 0px 2px 8px rgba(20,20,20,.3);
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.counters .counters-item {
+	display: flex;
+	flex-flow: column;
+	text-align: center;
+	padding: 20px 30px;
+}
+
+.counters .counters-item .item-number {
+	color: #0091E3;
+	font-size: 1.4em;
+	padding-bottom: 5px;
+}
+
+.counters .counters-item .item-name { padding-top: 5px; }

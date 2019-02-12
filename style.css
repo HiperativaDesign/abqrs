@@ -17,7 +17,7 @@ body,div,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,button,form,input,textarea,p,th,td { pad
 
 /* Modified as appropriate */
 
-body { background:#fff;color:#333;font-size:14px; font-family: 'Open Sans', 'Archivo', sans-serif; /*font-family:"SimSun","Times New Roman","Arial Narrow";*/ }
+body { background:#fff;color:#333;font-size:12px; font-family: 'Open Sans', 'Archivo', sans-serif; /*font-family:"SimSun","Times New Roman","Arial Narrow";*/ }
 
 /* A short reference values: 'or"" */
 
@@ -56,9 +56,9 @@ h1,h2,h3,h4,h5,h6 { font-weight: normal;font-size: 100%; }
 /* Link style, color can be modified as appropriate */
 
 a {text-decoration:none;}
-a:link {color:#009;}
-a:visited {color:#800080;}
-a:hover,a:active,a:focus {color:#c00; text-decoration:underline;} 
+a:link {color:#fff;}
+a:visited {color:#fff;}
+a:hover,a:active,a:focus {color:#fff; text-decoration:none;} 
 
 /* Mouse style */
 
@@ -97,3 +97,98 @@ input::-moz-focus-inner { border: 0; padding: 0;}
 .d-flex.d-f-row { flex-flow: row; }
 .d-flex.d-f-column { flex-flow: column; }
 .d-flex.d-f-space-between { justify-content: space-between; }
+
+/** 
+ * Background Color
+ *
+ * Cores padrões de estilização
+ * Do mais claro ao mais escuro
+ */
+
+.bg-ciano-smoke { background-color: #FCFDFF; }
+.bg-blue-smoke { background-color: #F9FAFC; } 
+.bg-ciano-gainsboro { background-color: #EFF2F7; }
+.bg-light-grey { background-color: #E5E9F2; }
+
+/** 
+ * Text
+ *
+ * Padronização na estilização de texto
+ */
+
+.text-center { text-align: center; }
+
+/** 
+ * Padding
+ *
+ * Padronização nos paddings
+ */
+
+.padding-y { padding: 20px 0; }
+.padding-b { padding-bottom: 60px; }
+
+/** 
+ * Row
+ *
+ * Container contendo item, título e subtítulo.
+ */
+
+.row { width: 100%; }
+.row .row-container { padding: 20px 0; margin: auto; }
+.row .row-container .row-item { margin: auto; }
+.row .row-container .row-item h2.row-item-title  {
+	margin: auto;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+/** 
+ * Button
+ *
+ * Padronização dos buttons
+ */
+
+.btn-primary  {
+	padding: 8px 24px;
+	color: #fff;
+	background-color: #0091E3;
+	border-radius: 5px;
+	font-size: 1em;
+	text-align: center;
+	text-transform: uppercase;
+	transition: background-color .3s;
+}
+
+.btn-primary:hover {
+	background-color: #00A1FB;
+	text-decoration: none;
+}
+
+/** 
+ * Icon
+ *
+ * Padronizando a estilização dos ícones
+ * Imagem dos ícones
+ */
+
+.icon-idea, .icon-teacher, .icon-network, .icon-certificate, .icon-equipment, .icon-discount, .icon-world, .icon-group-idea, .icon-book, .icon-pc, .icon-group, .icon-payment {
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: auto;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.icon-idea { background-image: url('images/icon/'); }
+.icon-teacher { background-image: url('images/icon/professores-qualificados.svg'); }
+.icon-network { background-image: url('images/icon/networking-colegas.svg'); }
+.icon-certificate { background-image: url('images/icon/certificacao-qualificacao-premiacao.svg'); }
+.icon-equipment { background-image: url('images/icon/equipamentos-modernos.svg'); }
+.icon-discount { background-image: url('images/icon/descontos-cursos-palestras.svg'); }
+.icon-world { background-image: url('images/icon/atuacao-no-estado-inteiro.svg'); }
+.icon-group-idea { background-image: url('images/icon/intercambio-ideias.svg'); }
+.icon-book { background-image: url('images/icon/material-didatico.svg'); }
+.icon-pc { background-image: url('images/icon/inscricoes-online.svg'); }
+.icon-group { background-image: url('images/icon/atendimento-especializado.svg'); }
+.icon-payment { background-image: url('images/icon/pagamentos-facilitados.svg'); }

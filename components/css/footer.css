@@ -13,10 +13,7 @@
  * Social Media
  */
 
-.social-media {
-	width: 100%;
-	background-color: #F9FAFC;
-}
+.social-media { width: 100%; }
 
 /* Container */
 
@@ -78,7 +75,6 @@
 
 footer.global-footer {
 	width: 100%;
-	background-color: #fff;
 	padding: 20px 0;
 }
 
@@ -117,18 +113,18 @@ footer.global-footer .footer-container .footer-list .newsletter-title h1 { font-
 
 /* Newsletter Form - Footer */
 
-footer.global-footer .footer-container .footer-list form.newsletter .form-title {
+form.newsletter .form-title {
 	padding: 14px 0;
 }
 
-footer.global-footer .footer-container .footer-list form.newsletter .form-group {
+form.newsletter .form-group {
 	padding: 14px 0;
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: flex-start;
 }
 
-footer.global-footer .footer-container .footer-list form.newsletter .form-group .newsletter-input {
+form.newsletter .form-group .newsletter-input {
 	width: 80%;
 	padding: 4px 6px;
 	border: 1px solid #333;
@@ -136,19 +132,25 @@ footer.global-footer .footer-container .footer-list form.newsletter .form-group 
 	border-bottom-left-radius: 5px;
 }
 
-footer.global-footer .footer-container .footer-list form.newsletter .form-group .newsletter-button {
+form.newsletter .form-group .newsletter-button {
 	color: #fff;
 	padding: 4px 16px;
-	background-color: #333;
-	border: 1px solid #333;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 }
+form.newsletter .form-group .newsletter-button.button-black {
+	background-color: #333;
+	border: 1px solid #333;
 
-footer.global-footer .footer-container .footer-list form.newsletter .form-group .newsletter-button:hover {
+}
+form.newsletter .form-group .newsletter-button.button-blue {
+	background-color: #0091E3;
+	border: 1px solid #0091E3;
+}
+form.newsletter .form-group .newsletter-button:hover {
 	cursor: pointer;
 }
 
-footer.global-footer .footer-container .footer-list form.newsletter .form-info {
+form.newsletter .form-info {
 	padding: 14px 0;
 }

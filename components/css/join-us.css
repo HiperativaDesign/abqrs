@@ -1,0 +1,31 @@
+/**
+ * Abq RS Join us - Css
+ *
+ * Arquivo de estilização do container da chamada para ser sócio.
+ *
+ * @package Abq RS
+ * @subpackage Join us
+ * @author Hiperativa Design
+ * @since 1.0.0
+ */
+
+.row .container-join-us {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: auto;
+	padding: 20px 0;
+}
+
+.row .container-join-us .join-us-item { width: 100%; text-align: center; }
+
+.row .container-join-us .join-us-item .join-us-title {
+	width: 270px;
+	margin: auto;
+	text-align: left;
+}
+.row .container-join-us .join-us-item .join-us-title .join-us-title-text {
+	font-size: 1.4em;
+	font-weight: bold;
+}

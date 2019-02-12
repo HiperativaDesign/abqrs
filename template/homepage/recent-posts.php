@@ -1,4 +1,4 @@
-<div class="post">
+<div class="post bg-blue-smoke">
 	<div class="grid-12 post-container">
 		<div class="post-title">
 			<h2 class="post-title-text">Ultimos posts</h2>

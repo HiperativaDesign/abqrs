@@ -1,0 +1,128 @@
+/**
+ * Abq RS Comments - Css
+ *
+ * Arquivo de estilização do sistema de comentários da página home.
+ *
+ * @package Abq RS
+ * @subpackage Comments
+ * @author Hiperativa Design
+ * @since 1.0.0
+ */
+
+.row .comment-slider {
+	width: 80%;
+	margin: auto;
+	padding: 20px 0;
+}
+
+.row .comment-slider .comment-item {
+	width: 20%;
+	display: block;
+	margin: 0 20px;
+}
+
+.row .comment-slider .comment-item .item-container {
+	width: 80%;
+	margin: auto;
+}
+
+/*
+ * Comment text
+ * 
+ * Contém o balão de fundo como imagem e o texto gerado no Wordpress
+ *
+ * Item text
+ * Background image
+ * Comment text
+ */
+
+.row .comment-slider .comment-item .item-container .comment-item-text {
+	width: 100%;
+	height: 155px;
+	position: relative;
+	padding: 0 20px;
+	overflow: hidden;
+}
+
+.row .comment-slider .comment-item .item-container .comment-item-text .comment-image {
+	background-image: url('../../images/icon/balao-comentario.svg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+.row .comment-slider .comment-item .item-container .comment-item-text p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: center;
+	font-size: .8em;
+	height: 88px;
+	margin: 20px 0;
+	display: flex;
+	align-items: center;
+}
+
+/*
+ * Comment bottom
+ * 
+ * Imagem autor
+ * Nome autor
+ */
+
+.row .comment-slider .comment-item .item-container .comment-item-author {
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+.row .comment-slider .comment-item .item-container .comment-item-author .author-image {
+	width: 49px;
+	height: 40px;
+	border-radius: 50px;
+	overflow: hidden;
+}
+.row .comment-slider .comment-item .item-container .comment-item-author .author-image img {
+	width: 40px;
+	height: 40px;
+}
+
+.row .comment-slider .comment-item .item-container .comment-item-author .author-name {
+	width: 100%;
+	padding: 20px;
+}
+.row .comment-slider .comment-item .item-container .comment-item-author .author-name .carousel-title-text {
+	font-size: .8em;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.row .comment-slider .slick-prev, .row .comment-slider .slick-next {
+	top: 30%;
+	-webkit-transform: translate(0, -30%);
+    -ms-transform: translate(0, -30%);
+    transform: translate(0, -30%);
+}
+
+.row .comment-slider .slick-prev:before {
+    /*content: '<';*/
+    content: url('../../images/icon/arrow-left-blue.svg');
+}
+.row .comment-slider [dir='rtl'] .slick-prev:before {
+    /*content: '>';*/
+    content: url('../../images/icon/arrow-right-blue.svg');
+}
+.row .comment-slider .slick-next:before {
+    /*content: '>';*/
+    content: url('../../images/icon/arrow-right-blue.svg');
+}
+.row .comment-slider [dir='rtl'] .slick-next:before {
+    /*content: '<';*/
+    content: url('../../images/icon/arrow-left-blue.svg');
+}

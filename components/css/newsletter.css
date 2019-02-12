@@ -1,0 +1,28 @@
+/**
+ * Abq RS Newsletter - Css
+ *
+ * Arquivo de estilização do corpo da página quem somos.
+ *
+ * @package Abq RS
+ * @subpackage Newsletter
+ * @author Hiperativa Design
+ * @since 1.0.0
+ */
+
+.row .newsletter-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: auto;
+}
+
+.row .newsletter-container .newsletter-item {
+	width: 40%;
+}
+
+.row .newsletter-container .newsletter-item .newsletter-title { width: 130px; }
+.row .newsletter-container .newsletter-item .newsletter-title h2 {
+	font-weight: bold;
+	font-size: 1.4em;
+}

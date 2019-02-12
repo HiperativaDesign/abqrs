@@ -1,0 +1,56 @@
+/**
+ * Abq RS Team - Css
+ *
+ * Arquivo de estilização do corpo da página quem somos.
+ *
+ * @package Abq RS
+ * @subpackage Team
+ * @author Hiperativa Design
+ * @since 1.0.0
+ */
+
+.team {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+.team .team-content {
+	width: 18%;
+	margin: 10px;
+	text-align: center;
+}
+.team .team-content .team-logo {
+	width: 100px;
+	height: 100px;
+	margin: 10px auto;
+	border-radius: 50px;
+	border: 1px solid #666;
+}
+
+.team .team-content .team-name { padding: 10px 0; }
+.team .team-content .team-office { font-weight: bold; }
+
+.map {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.map .map-item { width: 50%; }
+
+.position-right {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.map .map-item .map-content {
+	width: 56%;
+	height: 380px;
+	padding: 60px 0;
+}
+.map .map-item .map-content .map-content-title { width: 50%; }
+.map .map-item .map-content .map-content-title h2 {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+.map .map-item .map-content .map-content-text { padding: 10px 0; width: 50%; }

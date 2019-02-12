@@ -1,4 +1,4 @@
-<div class="social-media">
+<div class="social-media bg-blue-smoke">
 	<div class="grid-12 container-social-media">
 		<div class="social-media-item">
 			<img src="<?php bloginfo('template_url'); ?>/images/logo/logo-abq-original.svg" class="social-media-logo" alt="Logo da ABQRS">
