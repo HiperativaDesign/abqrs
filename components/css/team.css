@@ -26,6 +26,10 @@
 	margin: 10px auto;
 	border-radius: 50px;
 	border: 1px solid #666;
+	overflow: hidden;
+}
+.team .team-content .team-logo img {
+	width: 100%;
 }
 
 .team .team-content .team-name { padding: 10px 0; }

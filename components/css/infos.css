@@ -1,0 +1,21 @@
+.info-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+.info-container .info-item {
+	width: 40%;
+	height: 200px;
+	border-radius: 5px;
+	box-shadow: 0px 2px 8px rgba(20,20,20,.3);
+	margin: 0 10px;
+
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+}
+.info-container .info-item .info-title, .info-container .info-item .info-text { width: 180px; }
+.info-container .info-item .info-title h2 { font-size: 1.2em; font-weight: bold; line-height: 24px; }

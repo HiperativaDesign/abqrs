@@ -16,7 +16,8 @@
 	font-weight: bold;
 }
 
-.benefits .benefits-countainer .benefits-body, .benefits .benefits-countainer .benefits-body .benefits-content {
+.benefits .benefits-countainer .benefits-body,
+.benefits .benefits-countainer .benefits-body .benefits-content {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;

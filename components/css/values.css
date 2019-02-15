@@ -27,4 +27,5 @@
 	width: 28%;
 }
 .row .container-values .values-item .values-list { padding: 10px 0; }
+.row .container-values .values-item .values-list img { width: 40%; }
 .row .container-values .values-item .values-list .values-title { font-weight: bold; }

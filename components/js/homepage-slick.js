@@ -17,4 +17,9 @@ $(document).ready(function(){
 		slidesToShow: 3,
 		slideToScroll: 1
 	});
+	$('.vantagem-slider').slick({
+		infinite: true,
+		slidesToShow: 3,
+		slideToScroll: 1
+	});
 });

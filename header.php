@@ -51,6 +51,7 @@
 		wp_enqueue_style( 'values', get_template_directory_uri() . '/components/css/values.css',false,'1.1','all');
 		wp_enqueue_style( 'team', get_template_directory_uri() . '/components/css/team.css',false,'1.1','all');
 		wp_enqueue_style( 'newsletter', get_template_directory_uri() . '/components/css/newsletter.css',false,'1.1','all');
+		wp_enqueue_style( 'infos', get_template_directory_uri() . '/components/css/infos.css',false,'1.1','all');
 		?>
 		<?php wp_head(); ?>
 	</head>

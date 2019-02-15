@@ -2,7 +2,7 @@
 	<div class="padding-y grid-8 container-values">
 		<div class="padding-y values-item">
 			<div class="values-list">
-				<img src="" class="values-logo" alt="missão">
+				<img src="<?php bloginfo('template_url'); ?>/images/icon/missao.svg" class="values-logo" alt="missão">
 			</div>
 			<div class="values-list">
 				<h2 class="values-title">Missão</h2>
@@ -13,7 +13,7 @@
 		</div>
 		<div class="padding-y values-item">
 			<div class="values-list">
-				<img src="" class="values-logo" alt="visão">
+				<img src="<?php bloginfo('template_url'); ?>/images/icon/visao.svg" class="values-logo" alt="visão">
 			</div>
 			<div class="values-list">
 				<h2 class="values-title">Visão</h2>
@@ -24,7 +24,7 @@
 		</div>
 		<div class="padding-y values-item">
 			<div class="values-list">
-				<img src="" class="values-logo" alt="valores">
+				<img src="<?php bloginfo('template_url'); ?>/images/icon/valores.svg" class="values-logo" alt="valores">
 			</div>
 			<div class="values-list">
 				<h2 class="values-title">Valores</h2>

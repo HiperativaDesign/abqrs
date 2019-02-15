@@ -53,19 +53,49 @@
 	margin: auto;
 	padding: 20px 0;
 }
+.partner .partner-container .vantagem-slider {
+	width: 70%;
+	margin: auto;
+	padding: 20px 0;
+}
 
+.partner .partner-container .vantagem-slider .slick-prev:before,
+.partner .partner-container .vantagem-slider .slick-next:before,
 .partner .partner-container .partner-slider .slick-prev:before,
 .partner .partner-container .partner-slider .slick-next:before {
 	color: #666;
 }
 
 .partner .partner-container .partner-slider .item {
-	background-color: #333;
 	height: 114px;
 	margin: 0 10px;
+	padding: 14px;
+	display: flex;
+	align-items: center;
 }
 
 .partner .partner-container .partner-slider .item img {
-	width: 100%;
-	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	margin: auto;
+}
+
+.partner .partner-container .vantagem-slider .vantagem-item {
+	width: 30%;
+	height: 154px;
+	padding: 20px;
+	margin: 0 10px;
+	border-radius: 5px;
+	background-color: #EFF2F7;
+}
+.vantagem-item-logo {
+	text-align: center;
+	padding: 10px;
+}
+.vantagem-item-title {
+	width: 70%;
+	margin: auto;
+	padding: 10px 0;
+	text-align: center;
 }

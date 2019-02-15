@@ -12,7 +12,8 @@
 
 get_header();
 
-
+get_template_part('/template/contatopage/info-contato', 'null');
+get_template_part('/template/contatopage/contact-us', 'null');
 
 // Footer
 get_footer();

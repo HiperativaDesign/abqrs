@@ -12,7 +12,9 @@
 
 get_header();
 
+get_template_part('/template/cursopage/cursos', 'null');
 get_template_part('/template/aboutpage/newsletter', 'null');
+get_template_part('/template/cursopage/infos', 'null');
 
 // Footer
 get_footer();

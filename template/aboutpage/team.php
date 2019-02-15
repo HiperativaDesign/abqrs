@@ -7,10 +7,10 @@
 			<div class="team">
 				<div class="team-content">
 					<div class="team-logo">
-						<img src="" class="" alt="">
+						<img src="<?php bloginfo('template_url'); ?>/images/equipe/leandro-camacho.jpg" alt="Foto de Leandro Camacho">
 					</div>
 					<div class="team-name">
-						<h3>Teste</h3>
+						<h3>Leandro Camacho</h3>
 					</div>
 					<div class="team-office">
 						<p>PRESIDENTE</p>
@@ -18,90 +18,90 @@
 				</div>
 				<div class="team-content">
 					<div class="team-logo">
-						<img src="" class="" alt="">
+						<img src="<?php bloginfo('template_url'); ?>/images/equipe/Evangelista.jpg" alt="Foto de Renato Evangelista">
 					</div>
 					<div class="team-name">
-						<h3>Teste</h3>
+						<h3>Renato Evangelista</h3>
 					</div>
 					<div class="team-office">
-						<p>PRESIDENTE</p>
+						<p>VICE-PRESIDENTE</p>
 					</div>
 				</div>
 				<div class="team-content">
 					<div class="team-logo">
-						<img src="" class="" alt="">
+						<img src="<?php bloginfo('template_url'); ?>/images/equipe/Mauricio.JPG" alt="Foto de Mauricio Schimitt">
 					</div>
 					<div class="team-name">
-						<h3>Teste</h3>
+						<h3>Mauricio Schimitt</h3>
 					</div>
 					<div class="team-office">
-						<p>PRESIDENTE</p>
+						<p>SECRETÁRIO</p>
 					</div>
 				</div>
 				<div class="team-content">
 					<div class="team-logo">
-						<img src="" class="" alt="">
+						<img src="<?php bloginfo('template_url'); ?>/images/equipe/Elsa.JPG" alt="Foto de Elsa Nhuch">
 					</div>
 					<div class="team-name">
-						<h3>Teste</h3>
+						<h3>Elsa Nhuch</h3>
 					</div>
 					<div class="team-office">
-						<p>PRESIDENTE</p>
+						<p>1° TESOUREIRO</p>
 					</div>
 				</div>
 				<div class="team-content">
 					<div class="team-logo">
-						<img src="" class="" alt="">
+						<img src="<?php bloginfo('template_url'); ?>/images/equipe/Masur.JPG" alt="Foto de Masurquede Coimbra">
 					</div>
 					<div class="team-name">
-						<h3>Teste</h3>
+						<h3>Masurquede Coimbra</h3>
 					</div>
 					<div class="team-office">
-						<p>PRESIDENTE</p>
+						<p>2° TESOUREIRO</p>
 					</div>
 				</div>
 				<div class="team-content">
 					<div class="team-logo">
-						<img src="" class="" alt="">
+						<img src="<?php bloginfo('template_url'); ?>/images/equipe/Marcia.JPG" alt="Foto de Márcia Martinelli">
 					</div>
 					<div class="team-name">
-						<h3>Teste</h3>
+						<h3>Márcia Martinelli</h3>
 					</div>
 					<div class="team-office">
-						<p>PRESIDENTE</p>
+						<p>DIRETOR DE DIVULGAÇÃO</p>
 					</div>
 				</div>
 				<div class="team-content">
 					<div class="team-logo">
-						<img src="" class="" alt="">
+						<img src="<?php bloginfo('template_url'); ?>/images/equipe/Mauro.JPG" alt="Foto de Mauro Ibias Costa">
 					</div>
 					<div class="team-name">
-						<h3>Teste</h3>
+						<h3>Mauro Ibias Costa</h3>
 					</div>
 					<div class="team-office">
-						<p>PRESIDENTE</p>
+						<p>DIRETOR SOCIAL</p>
 					</div>
 				</div>
 				<div class="team-content">
 					<div class="team-logo">
-						<img src="" class="" alt="">
+						<img src="<?php bloginfo('template_url'); ?>/images/equipe/" alt="Foto de Estevão Segalha">
 					</div>
 					<div class="team-name">
-						<h3>Teste</h3>
+						<h3>Estevão Segalha</h3>
 					</div>
 					<div class="team-office">
-						<p>PRESIDENTE</p>
+						<p>DIRETOR CULTURAL</p>
 					</div>
 				</div>
 				<div class="team-content">
 					<div class="team-logo">
-						<img src="" class="" alt="">
+						<img src="<?php bloginfo('template_url'); ?>/images/equipe/Jorge.jpg" alt="Foto de Jorge Coelho da Silva Junior">
 					</div>
 					<div class="team-name">
-						<h3>Teste</h3>
+						<h3>Jorge Coelho da Silva Junior</h3>
 					</div>
 					<div class="team-office">
-						<p>PRESIDENTE</p>
+						<p>REPRESENTANTE ESTUDANTIL</p>
 					</div>
 				</div>
 			</div>

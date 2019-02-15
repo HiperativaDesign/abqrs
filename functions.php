@@ -62,7 +62,7 @@ function add_slide_type() {
 add_action('init', 'add_slide_type');
 
 function add_comment_type() {
-    // Slide
+    // Comentários de personas
     register_post_type('comment',
         array(
             'labels' => array(
@@ -77,3 +77,37 @@ function add_comment_type() {
     );
 }
 add_action('init', 'add_comment_type');
+
+// function add_curso_type() {
+//     // Cursos
+//     register_post_type('curso',
+//         array(
+//             'labels' => array(
+//                 'name' => __('Cursos'),
+//                 'singular_name' => __('Curso')
+//             ),
+//             'public' => true,
+//             'has_archive' => true,
+//             'menu_icon' => 'dashicons-welcome-learn-more',
+//             'supports' => array('title', 'thumbnail', 'editor'),
+//         )
+//     );
+// }
+// add_action('init', 'add_curso_type');
+
+// function add_palestra_type() {
+//     // Palestra
+//     register_post_type('palestra',
+//         array(
+//             'labels' => array(
+//                 'name' => __('Palestras'),
+//                 'singular_name' => __('Palestra')
+//             ),
+//             'public' => true,
+//             'has_archive' => true,
+//             'menu_icon' => 'dashicons-welcome-learn-more',
+//             'supports' => array('title', 'thumbnail', 'editor'),
+//         )
+//     );
+// }
+// add_action('init', 'add_palestra_type');

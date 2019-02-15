@@ -117,6 +117,15 @@ input::-moz-focus-inner { border: 0; padding: 0;}
  */
 
 .text-center { text-align: center; }
+.bold { font-weight: bold; }
+
+/** 
+ * Margin
+ *
+ * Padronização das margins
+ */
+
+.margin-auto { margin: auto; }
 
 /** 
  * Padding
@@ -124,8 +133,19 @@ input::-moz-focus-inner { border: 0; padding: 0;}
  * Padronização nos paddings
  */
 
+.padding-20 { padding: 20px; }
 .padding-y { padding: 20px 0; }
+.padding-y-10 { padding: 10px 0; }
 .padding-b { padding-bottom: 60px; }
+.padding-l-10 { padding-left: 10px; }
+
+/** 
+ * Border
+ *
+ * Padronização das bordas
+ */
+
+.border-radius { border-radius: 5px }
 
 /** 
  * Row
@@ -136,11 +156,20 @@ input::-moz-focus-inner { border: 0; padding: 0;}
 .row { width: 100%; }
 .row .row-container { padding: 20px 0; margin: auto; }
 .row .row-container .row-item { margin: auto; }
-.row .row-container .row-item h2.row-item-title  {
+.row .row-container .row-item .row-item-title  {
 	margin: auto;
 	font-size: 1.4em;
 	font-weight: bold;
 }
+.img-post {
+	width: 50%;
+	height: 400px;
+	overflow: hidden;
+}
+.img-post img {
+	max-width: 100%;
+}
+
 
 /** 
  * Button
@@ -171,7 +200,7 @@ input::-moz-focus-inner { border: 0; padding: 0;}
  * Imagem dos ícones
  */
 
-.icon-idea, .icon-teacher, .icon-network, .icon-certificate, .icon-equipment, .icon-discount, .icon-world, .icon-group-idea, .icon-book, .icon-pc, .icon-group, .icon-payment {
+.icon, .icon-idea, .icon-teacher, .icon-network, .icon-certificate, .icon-equipment, .icon-discount, .icon-world, .icon-group-idea, .icon-book, .icon-pc, .icon-group, .icon-payment {
 	display: block;
 	width: 40px;
 	height: 40px;
@@ -180,7 +209,7 @@ input::-moz-focus-inner { border: 0; padding: 0;}
 	background-position: center;
 	background-repeat: no-repeat;
 }
-.icon-idea { background-image: url('images/icon/'); }
+.icon-idea { background-image: url('images/icon/atualizacoes-constantes.svg'); }
 .icon-teacher { background-image: url('images/icon/professores-qualificados.svg'); }
 .icon-network { background-image: url('images/icon/networking-colegas.svg'); }
 .icon-certificate { background-image: url('images/icon/certificacao-qualificacao-premiacao.svg'); }
@@ -192,3 +221,49 @@ input::-moz-focus-inner { border: 0; padding: 0;}
 .icon-pc { background-image: url('images/icon/inscricoes-online.svg'); }
 .icon-group { background-image: url('images/icon/atendimento-especializado.svg'); }
 .icon-payment { background-image: url('images/icon/pagamentos-facilitados.svg'); }
+.icon-idea-dark { background-image: url('images/icon/'); }
+.icon-teacher-dark { background-image: url('images/icon/professores-qualificados-dark.svg'); }
+.icon-network-dark { background-image: url('images/icon/networking-colegas-dark.svg'); }
+.icon-certificate-dark { background-image: url('images/icon/certificacao-qualificacao-premiacao-dark.svg'); }
+.icon-equipment-dark { background-image: url('images/icon/equipamentos-modernos-dark.svg'); }
+.icon-discount-dark { background-image: url('images/icon/descontos-cursos-palestras-dark.svg'); }
+.icon-world-dark { background-image: url('images/icon/atuacao-no-estado-inteiro-dark.svg'); }
+.icon-group-dark-idea { background-image: url('images/icon/intercambio-ideias-dark.svg'); }
+.icon-book-dark { background-image: url('images/icon/material-didatico-dark.svg'); }
+.icon-pc-dark { background-image: url('images/icon/inscricoes-online-dark.svg'); }
+.icon-group-dark { background-image: url('images/icon/atendimento-especializado-dark.svg'); }
+.icon-payment-dark { background-image: url('images/icon/pagamentos-facilitados-dark.svg'); }
+
+
+/*
+ * Form
+ */
+
+.form-title {
+	padding: 5px 20px;
+}
+
+.form-group {
+	padding: 0 20px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+}
+
+.form-group .form-input {
+	width: 100%;
+	padding: 8px 6px;
+	border: 1px solid #ddd;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+/*
+ * Image
+ */
+
+.img-title { 
+	width: 80%;
+	margin: auto;
+	display: block;
+}

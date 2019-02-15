@@ -17,8 +17,7 @@
 }
 
 .post .post-container .post-title { width: 100%; padding: 20px 0; }
-.post .post-container .post-title h2.post-title-text { 
-	text-align: center;
+.post .post-container .post-title h2.post-title-text {
 	font-size: 1.4em;
 	font-weight: bold;
 }
@@ -32,8 +31,8 @@
 }
 
 .post .post-container .post-content .card {
-	width: 23%;
-	margin: 0 10px;
+	width: 266px;
+	margin: 10px;
 	display: flex;
 	flex-flow: column;
 	border-radius: 5px;
@@ -56,7 +55,7 @@
 	justify-content: space-between;
 }
 
-.post .post-container .post-content .card .card-body .card-body-item:nth-child(1) a {
+.post .post-container .post-content .card .card-body .card-body-item.the_category a {
 	border: 1px solid #0091E3;
 	border-radius: 5px;
 	text-transform: uppercase;

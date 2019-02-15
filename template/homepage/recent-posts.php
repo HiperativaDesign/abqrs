@@ -1,7 +1,7 @@
 <div class="post bg-blue-smoke">
 	<div class="grid-12 post-container">
 		<div class="post-title">
-			<h2 class="post-title-text">Ultimos posts</h2>
+			<h2 class="post-title-text text-center">Ultimos posts</h2>
 		</div>
 		<div class="post-content">
 			<?php
@@ -12,7 +12,7 @@
 					<?php the_post_thumbnail(); ?>
 				</div>
 				<div class="card-body">
-					<div class="card-body-item">
+					<div class="card-body-item the_category">
 						<?php the_category( ', ' ); ?>
 					</div>
 					<div class="card-body-item">

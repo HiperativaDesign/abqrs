@@ -12,7 +12,7 @@
 
 get_header();
 
-
+get_template_part('/template/olimpiadapage/content', 'null');
 
 // Footer
 get_footer();

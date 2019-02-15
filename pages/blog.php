@@ -12,7 +12,7 @@
 
 get_header();
 
-
+get_template_part('/template/blogpage/header', 'null');
 
 // Footer
 get_footer();

@@ -12,7 +12,8 @@
 
 get_header();
 
-
+get_template_part('/template/palestrapage/palestra', 'null');
+get_template_part('/template/cursopage/infos', 'null');
 
 // Footer
 get_footer();
