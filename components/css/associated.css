@@ -9,7 +9,7 @@
  * @since 1.0.0
  */
 
-.benefits .benefits-countainer { margin: auto; }
+.benefits .benefits-countainer { padding-top: 80px; margin: auto; }
 
 .benefits .benefits-countainer .benefits-header h2 {
 	font-size: 1.4em;

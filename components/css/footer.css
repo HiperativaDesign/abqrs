@@ -101,7 +101,7 @@ footer.global-footer .footer-container .footer-list {
 footer.global-footer .footer-container .footer-list li.footer-item { list-style: none; }
 
 footer.global-footer .footer-container .footer-list li.footer-item a.footer-link {
-	color: #333;
+	color: #fff;
 	line-height: 50px;
 }
 
@@ -127,13 +127,18 @@ form.newsletter .form-group {
 form.newsletter .form-group .newsletter-input {
 	width: 80%;
 	padding: 4px 6px;
-	border: 1px solid #333;
+	border: 1px solid #cecece;
+	border-right: 1px solid #0091E3;
+	background-color: transparent;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 }
+form.newsletter .form-group .newsletter-input.input-white {
+	border: 1px solid #fff;
+	background-color: transparent;
+}
 
 form.newsletter .form-group .newsletter-button {
-	color: #fff;
 	padding: 4px 16px;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
@@ -141,11 +146,16 @@ form.newsletter .form-group .newsletter-button {
 form.newsletter .form-group .newsletter-button.button-black {
 	background-color: #333;
 	border: 1px solid #333;
-
 }
 form.newsletter .form-group .newsletter-button.button-blue {
 	background-color: #0091E3;
 	border: 1px solid #0091E3;
+	color: #fff;
+}
+form.newsletter .form-group .newsletter-button.button-white {
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #0091e3;
 }
 form.newsletter .form-group .newsletter-button:hover {
 	cursor: pointer;

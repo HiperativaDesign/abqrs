@@ -12,7 +12,7 @@
 		</div>
 	</div>
 </div>
-<div class="counters bg-ciano-gainsboro">
+<div class="counters bg-blue">
 	<div class="counters-item">
 		<div class="item-number">
 			<p>2185</p>

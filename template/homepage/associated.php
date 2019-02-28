@@ -1,4 +1,4 @@
-<div class="padding-y benefits">
+<div class="padding-y benefits bg-blue-smoke">
 	<div class="grid-10 benefits-countainer">
 		<div class="padding-y benefits-header">
 			<h2>Colocamos nossos sócios em primeiro lugar!</h2>

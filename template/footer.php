@@ -1,4 +1,4 @@
-<footer class="global-footer">
+<footer class="global-footer bg-blue">
 	<div class="grid-12 footer-container">
 		<div class="footer-list">
 			<li class="footer-item">
@@ -31,7 +31,7 @@
 				<a href="#Associe-se" class="footer-link" title="Associe-se">Associe-se</a>
 			</li>
 		</div>
-		<div class="footer-list">
+		<div class="footer-list color-white">
 			<div class="newsletter-title">
 				<h1>Receba atualizações!</h1>
 			</div>
@@ -40,8 +40,8 @@
 					<label class="newsletter-subtitle">Deixe seu e-mail:</label>
 				</div>
 				<div class="form-group">
-					<input type="email" name="email" class="newsletter-input" required>
-					<input type="button" name="send" class="newsletter-button button-black" value="Enviar">
+					<input type="email" name="email" class="newsletter-input input-white" required>
+					<input type="button" name="send" class="newsletter-button button-white" value="Enviar">
 				</div>
 				<div class="form-info">
 					<p class="">Av. Itaqui, 45 - Bairro Petrópolis, 90460140 Porto Alegre, Brasil</p>

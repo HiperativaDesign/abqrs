@@ -110,6 +110,9 @@ input::-moz-focus-inner { border: 0; padding: 0;}
 .bg-ciano-gainsboro { background-color: #EFF2F7; }
 .bg-light-grey { background-color: #E5E9F2; }
 
+.bg-blue { background-color: #0091e3; }
+.bg-blue-2 { background-color: #004F90; }
+
 /** 
  * Text
  *
@@ -118,6 +121,8 @@ input::-moz-focus-inner { border: 0; padding: 0;}
 
 .text-center { text-align: center; }
 .bold { font-weight: bold; }
+
+.color-white { color: #fff; }
 
 /** 
  * Margin
@@ -169,7 +174,6 @@ input::-moz-focus-inner { border: 0; padding: 0;}
 .img-post img {
 	max-width: 100%;
 }
-
 
 /** 
  * Button
@@ -233,7 +237,6 @@ input::-moz-focus-inner { border: 0; padding: 0;}
 .icon-pc-dark { background-image: url('images/icon/inscricoes-online-dark.svg'); }
 .icon-group-dark { background-image: url('images/icon/atendimento-especializado-dark.svg'); }
 .icon-payment-dark { background-image: url('images/icon/pagamentos-facilitados-dark.svg'); }
-
 
 /*
  * Form

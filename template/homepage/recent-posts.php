@@ -1,7 +1,7 @@
-<div class="post bg-blue-smoke">
+<div class="post bg-blue">
 	<div class="grid-12 post-container">
 		<div class="post-title">
-			<h2 class="post-title-text text-center">Ultimos posts</h2>
+			<h2 class="post-title-text text-center color-white">Ultimos posts</h2>
 		</div>
 		<div class="post-content">
 			<?php
