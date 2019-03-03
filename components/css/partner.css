@@ -44,7 +44,10 @@
 	padding: 20px 0;
 }
 
-.partner .partner-container .partner-slider-title p.partner-slider-title-text { font-weight: bold; }
+.partner .partner-container .partner-slider-title p.partner-slider-title-text {
+	font-weight: bold;
+	font-size: 1.2em;
+}
 
 /* Slider - Slick */
 

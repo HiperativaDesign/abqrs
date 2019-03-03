@@ -1,7 +1,7 @@
-<div class="row padding-y bg-blue">
+<div class="row padding-y bg-ciano-gainsboro">
 	<div class="grid-12 row-container">
 		<div class="grid-8 row-item">
-			<h2 class="padding-y text-center row-item-title">Nossa História:</h2>
+			<h2 class="padding-y text-center row-item-title">Equipe:</h2>
 		</div>
 		<div class="row-item">
 			<div class="team">

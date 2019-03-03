@@ -10,7 +10,6 @@
  */
 
 .row .comment-slider {
-	width: 80%;
 	margin: auto;
 	padding: 20px 0;
 }
@@ -60,7 +59,7 @@
 	overflow: hidden;
 	text-overflow: ellipsis;
 	text-align: center;
-	font-size: .8em;
+	font-size: 1em;
 	height: 88px;
 	margin: 20px 0;
 	display: flex;

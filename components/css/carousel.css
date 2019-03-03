@@ -40,10 +40,12 @@ header.carousel .item .carousel-banner img {
 
 header.carousel .item .carousel-content {
 	position: absolute;
-	left: 15%;
+	left: 50%;
 	top: 90px;
+	transform: translate(-50%, 0);
 	width: 40%;
 	height: 300px;
+	text-align: center;
 }
 
 /* Título - Carousel */
@@ -68,6 +70,7 @@ header.carousel .item .carousel-content .carousel-subtitle p a {
 	display: block;
 	width: 130px;
 	padding: 8px 18px;
+	margin: auto;
 	color: #fff;
 	background-color: #0091E3;
 	border-radius: 5px;

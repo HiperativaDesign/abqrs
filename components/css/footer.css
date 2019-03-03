@@ -101,15 +101,22 @@ footer.global-footer .footer-container .footer-list {
 footer.global-footer .footer-container .footer-list li.footer-item { list-style: none; }
 
 footer.global-footer .footer-container .footer-list li.footer-item a.footer-link {
-	color: #fff;
+	color: #f3f5f3;
 	line-height: 50px;
+	transition: color .2s ease;
+}
+footer.global-footer .footer-container .footer-list li.footer-item a.footer-link:hover {
+	color: #fff;
 }
 
 /* Newsletter - Footer */
 
 footer.global-footer .footer-container .footer-list .newsletter-title { padding: 14px 0; }
 
-footer.global-footer .footer-container .footer-list .newsletter-title h1 { font-size: 1.2em; }
+footer.global-footer .footer-container .footer-list .newsletter-title h1 { 
+	font-size: 1.2em;
+	font-weight: bold;
+}
 
 /* Newsletter Form - Footer */
 
@@ -132,11 +139,13 @@ form.newsletter .form-group .newsletter-input {
 	background-color: transparent;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
+	color: #fff;
 }
 form.newsletter .form-group .newsletter-input.input-white {
-	border: 1px solid #fff;
+	border: 1px solid #f3f5f3;
 	background-color: transparent;
 }
+form.newsletter .form-group .newsletter-input.input-white:focus { border-color: #fff; }
 
 form.newsletter .form-group .newsletter-button {
 	padding: 4px 16px;
@@ -153,9 +162,14 @@ form.newsletter .form-group .newsletter-button.button-blue {
 	color: #fff;
 }
 form.newsletter .form-group .newsletter-button.button-white {
+	background-color: #f3f5f3;
+	border: 1px solid #f3f5f3;
+	color: #0091e3;
+	transition: all .2s ease;
+}
+form.newsletter .form-group .newsletter-button.button-white:hover {
 	background-color: #fff;
 	border: 1px solid #fff;
-	color: #0091e3;
 }
 form.newsletter .form-group .newsletter-button:hover {
 	cursor: pointer;

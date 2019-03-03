@@ -1,13 +1,13 @@
 <div class="padding-y row">
-	<div class="grid-12 row-container">
-		<div class="padding-y grid-6 row-item">
-			<h2 class="row-item-title text-center">Descontos nos melhores cursos e palestras:</h2>
+	<div class="grid-10 row-container">
+		<div class="padding-y grid-5 row-item">
+			<h2 class="row-item-title text-center">Opinião dos associados</h2>
 		</div>
-		<div class="padding-y grid-6 row-item">
-			<p class="row-item-text text-center">Nossa prioridade #1 é fornecer as melhores ferramentas para que profissionais possam aprimorar suas qualificações . Acreditamos nos cursos e palestras que desenvolvemos e que colaboramos para transformar a vida dos nossos associados e de todos os profissionais do segmento.</p>
+		<div class="padding-y grid-5 row-item">
+			<p class="row-item-text text-center">Nós temos muito orgulho do trabalho que desenvolvemos, recebemos o incentivo das pessoas que fazem os cursos. Veja alguns depoimentos que recebemos das pessoas associadas e que participam do nosso curso!</p>
 		</div>
 	</div>
-	<div class="comment-slider">
+	<div class="comment-slider grid-10">
 		<?php 
 		query_posts('post_type=comment');
 		while(have_posts()) : the_post();
