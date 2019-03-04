@@ -46,13 +46,13 @@
 <div class="partner bg-blue-smoke padding-y">
 	<div class="grid-12 padding-y partner-container">
 		<div class="partner-title">
-			<h1 class="partner-title-text">Associe-se e ganhe descontos nas palestras!</h1>
+			<h1 class="partner-title-text">Associe-se e ganhe descontos nos cursos!</h1>
 			<h1 class="partner-title-text">Veja algumas das vantagens de ser um associado da ABQRS</h1>
 		</div>
 		<div class="vantagem-slider">
 				<div class="vantagem-item">
 					<div class="vantagem-item-logo">
-						<i class="icon icon-idea-dark"></i>
+						<i class="icon icon-idea"></i>
 					</div>
 					<div class="vantagem-item-title">
 						<p>Atualizações constantes</p>
@@ -60,7 +60,7 @@
 				</div>
 				<div class="vantagem-item">
 					<div class="vantagem-item-logo">
-						<i class="icon icon-teacher-dark"></i>
+						<i class="icon icon-teacher"></i>
 					</div>
 					<div class="vantagem-item-title">
 						<p>Professores qualificados</p>
@@ -68,7 +68,7 @@
 				</div>
 				<div class="vantagem-item">
 					<div class="vantagem-item-logo">
-						<i class="icon icon-network-dark"></i>
+						<i class="icon icon-network"></i>
 					</div>
 					<div class="vantagem-item-title">
 						<p>Networking com colegas</p>
@@ -76,7 +76,7 @@
 				</div>
 				<div class="vantagem-item">
 					<div class="vantagem-item-logo">
-						<i class="icon icon-certificate-dark"></i>
+						<i class="icon icon-certificate"></i>
 					</div>
 					<div class="vantagem-item-title">
 						<p>Certificação, qualificação e premiação</p>
@@ -84,7 +84,7 @@
 				</div>
 				<div class="vantagem-item">
 					<div class="vantagem-item-logo">
-						<i class="icon icon-equipment-dark"></i>
+						<i class="icon icon-equipment"></i>
 					</div>
 					<div class="vantagem-item-title">
 						<p>Equipamentos modernos e suporte diferenciado</p>
@@ -92,7 +92,7 @@
 				</div>
 				<div class="vantagem-item">
 					<div class="vantagem-item-logo">
-						<i class="icon icon-discount-dark"></i>
+						<i class="icon icon-discount"></i>
 					</div>
 					<div class="vantagem-item-title">
 						<p>Descontos em cursos e palestras</p>
@@ -100,7 +100,7 @@
 				</div>
 				<div class="vantagem-item">
 					<div class="vantagem-item-logo">
-						<i class="icon icon-world-dark"></i>
+						<i class="icon icon-world"></i>
 					</div>
 					<div class="vantagem-item-title">
 						<p>Atuação em todo o estado do Rio Grande do Sul</p>
@@ -108,7 +108,7 @@
 				</div>
 				<div class="vantagem-item">
 					<div class="vantagem-item-logo">
-						<i class="icon icon-group-idea-dark"></i>
+						<i class="icon icon-group-idea"></i>
 					</div>
 					<div class="vantagem-item-title">
 						<p>Intercâmbio de ideias</p>
@@ -116,7 +116,7 @@
 				</div>
 				<div class="vantagem-item">
 					<div class="vantagem-item-logo">
-						<i class="icon icon-book-dark"></i>
+						<i class="icon icon-book"></i>
 					</div>
 					<div class="vantagem-item-title">
 						<p>Material didático e extensivo</p>
@@ -124,7 +124,7 @@
 				</div>
 				<div class="vantagem-item">
 					<div class="vantagem-item-logo">
-						<i class="icon icon-pc-dark"></i>
+						<i class="icon icon-pc"></i>
 					</div>
 					<div class="vantagem-item-title">
 						<p>Inscrições online</p>
@@ -132,7 +132,7 @@
 				</div>
 				<div class="vantagem-item">
 					<div class="vantagem-item-logo">
-						<i class="icon icon-group-dark"></i>
+						<i class="icon icon-group"></i>
 					</div>
 					<div class="vantagem-item-title">
 						<p>Atendimento especializado</p>
@@ -140,7 +140,7 @@
 				</div>
 				<div class="vantagem-item">
 					<div class="vantagem-item-logo">
-						<i class="icon icon-payment-dark"></i>
+						<i class="icon icon-payment"></i>
 					</div>
 					<div class="vantagem-item-title">
 						<p>Pagamentos facilitados</p>
