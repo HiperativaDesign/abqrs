@@ -8,7 +8,6 @@
 		<script src="<?php bloginfo('template_url'); ?>/components/slick/slick/slick.min.js"></script>
 		<script src="<?php bloginfo('template_url'); ?>/components/js/homepage-slick.js"></script>
 		<script src="<?php bloginfo('template_url'); ?>/components/js/main.js"></script>
-		<script src="<?php bloginfo('template_url'); ?>/components/js/jquery-2.1.4.js"></script>
 		<?php wp_footer(); ?>
 	</body>
 </html>
