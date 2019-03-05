@@ -1,7 +1,7 @@
 <div class="row padding-y">
 	<div class="padding-y grid-9 row-container">
 		<?php
-		$query = new WP_Query( 'cat=-3,-8' );
+		$query = new WP_Query();
 		if ( $query->have_posts() ): $query->the_post(); ?>
 		<div class="row-item">
 			<div class="img-post">

@@ -53,6 +53,7 @@
 		wp_enqueue_style( 'newsletter', get_template_directory_uri() . '/components/css/newsletter.css',false,'1.1','all');
 		wp_enqueue_style( 'infos', get_template_directory_uri() . '/components/css/infos.css',false,'1.1','all');
 		?>
+		<script src="<?php bloginfo('template_url'); ?>/components/js/modernizr.js"></script>
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>

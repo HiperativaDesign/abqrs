@@ -4,9 +4,11 @@
 		?>
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/components/js/jquery.mobile.custom.min.js"></script>
 		<script src="<?php bloginfo('template_url'); ?>/components/slick/slick/slick.min.js"></script>
 		<script src="<?php bloginfo('template_url'); ?>/components/js/homepage-slick.js"></script>
-		<script src="<?php bloginfo('template_url'); ?>/components/js/timeline.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/components/js/main.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/components/js/jquery-2.1.4.js"></script>
 		<?php wp_footer(); ?>
 	</body>
 </html>

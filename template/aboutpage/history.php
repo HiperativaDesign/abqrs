@@ -5,74 +5,81 @@
 		</div>
 	</div>
 </div>
-<div class="timeline">
-	<div class="grid-10 timeline-row">
-		<div class="timeline-container container-bottom">
-			<div class="button-group">
-				<button class="button-toggle">1922</button>
-				<i class="timeline-icon icon-bottom"></i>
-			</div>
-			<div class="content">
-				<p>A história da Associação Brasileira de Química teve início com um grupo de profissionais que fundaram uma associação de classe com o nome "Sociedade Brasileira de Química", mas o objetivo inicial era apenas realizar o 1º Congresso Nacional de Química.</p>
-			</div>
-		</div>
-		<div class="timeline-container container-top">
-			<div class="content">
-				<p>Em 1937 a Associação realizou outro evento em parceria com o Congresso Sul-Americano de Química.</p>
-			</div>
-			<div class="button-group">
-				<i class="timeline-icon icon-top"></i>
-				<button class="button-toggle">1937</button>
+<section class="cd-horizontal-timeline">
+	<div class="timeline">
+		<div class="events-wrapper">
+			<div class="events">
+				<ol>
+					<li><a href="#0" data-date="30/12/1922" class="selected">1922</a></li>
+					<li><a href="#0" data-date="01/01/1937">1937</a></li>
+					<li><a href="#0" data-date="20/04/1939">1939</a></li>
+					<li><a href="#0" data-date="20/05/1941">1941</a></li>
+					<li><a href="#0" data-date="09/07/1945">1945</a></li>
+					<li><a href="#0" data-date="30/08/1951">1951</a></li>
+					<li><a href="#0" data-date="15/09/1953">1953</a></li>
+				</ol>
+				<span class="filling-line" aria-hidden="true"></span>
 			</div>
 		</div>
-		<div class="timeline-container container-bottom">
-			<div class="button-group">
-				<button class="button-toggle">1939</button>
-				<i class="timeline-icon icon-bottom"></i>
-			</div>
-			<div class="content">
-				<p>Alguns anos depois, surgia uma nova associação, congregando somente químicos e recebeu o nome de "Associação de Química do Brasil".</p>
-			</div>
-		</div>
-		<div class="timeline-container container-top">
-			<div class="content">
-				<p>Entre 1941 e 1950 essa Associação realizou sete congressos brasileiros, além de outras reuniões regionais.</p>
-				<p>O espírito de unidade falou mais alto, e alguns profissionais que eram participantes das duas associações tentavam uma fusão pensando no progresso da química no país.</p>
-			</div>
-			<div class="button-group">
-				<i class="timeline-icon icon-top"></i>
-				<button class="button-toggle">1941</button>
-			</div>
-		</div>
-		<div class="timeline-container container-bottom">
-			<div class="button-group">
-				<button class="button-toggle">1945</button>
-				<i class="timeline-icon icon-bottom"></i>
-			</div>
-			<div class="content">
-				<p>De 1945 a 1951 foram realizadas diversas reuniões com o propósito de fundir as duas associações.</p>
-			</div>
-		</div>
-		<div class="timeline-container container-top">
-			<div class="content">
-				<p>Em 10 de agosto de 1951 a Ata de Fusão e Fundação da nova associação foi assinada pelo Prof. Francisco Moura, como Presidente da associação que recebeu nome de "Associação Brasileira de Química".</p>
-			</div>
-			<div class="button-group">
-				<i class="timeline-icon icon-top"></i>
-				<button class="button-toggle">1951</button>
-			</div>
-		</div>
-		<div class="timeline-container container-bottom">
-			<div class="button-group">
-				<button class="button-toggle">1953</button>
-				<i class="timeline-icon icon-bottom"></i>
-			</div>
-			<div class="content">
-				<p>Em 08 de julho de 1953 a ABQ foi declarada de Utilidade Pública Federal pelo decreto 33.254.</p>
-			</div>
-		</div>
+		<ul class="cd-timeline-navigation">
+			<li><a href="#0" class="prev inactive">Prev</a></li>
+			<li><a href="#0" class="next">Next</a></li>
+		</ul>
 	</div>
-</div>
+	<div class="events-content">
+		<ol>
+			<li class="selected" data-date="30/12/1922">
+				<h2>Horizontal Timeline</h2>
+				<em>January 16th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+			<li data-date="01/01/1937">
+				<h2>Event title here</h2>
+				<em>February 28th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+			<li data-date="20/04/1939">
+				<h2>Event title here</h2>
+				<em>March 20th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+			<li data-date="20/05/1941">
+				<h2>Event title here</h2>
+				<em>May 20th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+			<li data-date="09/07/1945">
+				<h2>Event title here</h2>
+				<em>July 9th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+			<li data-date="30/08/1951">
+				<h2>Event title here</h2>
+				<em>August 30th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+			<li data-date="15/09/1953">
+				<h2>Event title here</h2>
+				<em>September 15th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+		</ol>
+	</div>
+</section>
 <div class="row padding-y">
 	<div class="grid-12 padding-y row-container">
 		<div class="padding-y grid-8 row-item">
