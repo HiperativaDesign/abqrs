@@ -21,11 +21,11 @@
 	text-align: center;
 }
 .team .team-content .team-logo {
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 	margin: 10px auto;
-	border-radius: 50px;
-	border: 1px solid #666;
+	border-radius: 50%;
+	/*border: 1px solid #666;*/
 	overflow: hidden;
 }
 .team .team-content .team-logo img {

@@ -29,7 +29,7 @@
 				</div>
 				<div class="team-content">
 					<div class="team-logo">
-						<img src="<?php bloginfo('template_url'); ?>/images/equipe/Mauricio.JPG" alt="Foto de Mauricio Schimitt">
+						<img src="<?php bloginfo('template_url'); ?>/images/equipe/equipe.png" alt="Foto de Mauricio Schimitt">
 					</div>
 					<div class="team-name">
 						<h3>Mauricio Schimitt</h3>
@@ -84,7 +84,7 @@
 				</div>
 				<div class="team-content">
 					<div class="team-logo">
-						<img src="<?php bloginfo('template_url'); ?>/images/equipe/" alt="Foto de Estevão Segalha">
+						<img src="<?php bloginfo('template_url'); ?>/images/equipe/Estevao.JPG" alt="Foto de Estevão Segalha">
 					</div>
 					<div class="team-name">
 						<h3>Estevão Segalha</h3>
