@@ -1,11 +1,11 @@
 <div class="row padding-y">
 	<div class="grid-12 padding-y row-container">
-		<div class="grid-10 row-item">
+		<div class="grid-8 row-item">
 			<h2 class="padding-y row-item-title">Nossa História:</h2>
 		</div>
 	</div>
 </div>
-<section class="cd-horizontal-timeline">
+<section class="cd-horizontal-timeline grid-8">
 	<div class="timeline">
 		<div class="events-wrapper">
 			<div class="events">
