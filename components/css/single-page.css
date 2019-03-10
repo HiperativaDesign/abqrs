@@ -1,0 +1,106 @@
+/**
+ * Abq RS Single Page - css
+ *
+ * Arquivo de estilização do corpo da single page.
+ *
+ * @package Abq RS
+ * @subpackage Associated
+ * @author Hiperativa Design
+ * @since 1.0.0
+ */
+
+.header-page, .article-page {
+	display: flex;
+	flex-flow: row nowrap;
+	margin: 20px auto;
+}
+.header-item, .article-item {
+	width: 60%;
+	height: 400px;
+}
+
+.header-item:nth-child(2) {
+	width: 40%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-end;
+}
+
+.header-item img {
+	height: 100%;
+	width: 100%;
+}
+
+.article-item:nth-child(2) {
+	width: 40%;
+}
+
+.header-item .header-title, .header-item .header-author {
+	width: 100%;
+	padding: 20px;
+}
+
+.header-item .header-title h1 {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.header-item .header-author .author-item { 
+	display: inline-block;
+	width: 40%;
+}
+
+.header-item .header-author .author-item a {
+	color: #333;
+}
+
+.article-item p {
+	line-height: 2;
+}
+
+
+.article-item .article-title { margin-bottom: 20px; }
+
+.article-item .article-title h2 { 
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.article-item .article-content .article-content-list {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	margin: 20px 0;
+}
+
+.article-item .article-content .article-content-list .content-list-header {
+	width: 70px;
+	height: 70px;
+}
+
+.article-item .article-content .article-content-list .content-list-header img {
+	height: 100%;
+	width: 100%;
+	border-radius: 4px;
+}
+
+.article-item .article-content .article-content-list .content-list-section {
+	width: 80%;
+	padding: 14px 17px;
+	box-sizing: border-box;
+}
+
+.article-item .article-content .article-content-list .content-list-section .content-list-article a {
+	color: #333;
+	padding: 3px 0;
+	display: block;
+}
+
+.content-list-category a {
+	text-transform: uppercase;
+	font-size: .8em;
+}
+
+.article-item .article-content .article-content-list .content-list-section .content-list-article h2 a {
+	font-weight: bold;
+}

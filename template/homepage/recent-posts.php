@@ -1,5 +1,5 @@
 <div class="post bg-blue-smoke">
-	<div class="grid-12 post-container">
+	<div class="grid-10 post-container">
 		<div class="post-title">
 			<h2 class="post-title-text text-center">Ultimos posts</h2>
 		</div>

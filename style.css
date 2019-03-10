@@ -123,6 +123,7 @@ input::-moz-focus-inner { border: 0; padding: 0;}
 .bold { font-weight: bold; }
 
 .color-white { color: #fff; }
+.color-black { color: #333; }
 
 /** 
  * Margin

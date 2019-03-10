@@ -1,20 +1,16 @@
-<div class="row padding-y">
+<!-- <div class="row padding-y">
 	<div class="padding-y grid-9 row-container">
 		<div class="row-item padding-y">
-			<h1 class="row-item-title">Notícia</h1>
-		</div>
-		<div class="row-item padding-y">
-			<!-- <div class="blog-main">
+			<div class="blog-main">
 				<div class="blog-first">
 					<div class="blog-header">
-
 					</div>
 					<div class="blog-body">
 						<div class="blog-title">
-							<h1>Post 1</h1>
+							<h1></h1>
 						</div>
 						<div class="blog-content">
-							<p>descrição</p>
+							<p></p>
 						</div>
 					</div>
 					<div class="blog-footer">
@@ -24,20 +20,16 @@
 				<div class="blog-secondary">
 					<div class="blog-item">
 					</div>
-					<div class="blog-item">
-					</div>
-					<div class="blog-item">
-					</div>
-					<div class="blog-item">
-					</div>
 				</div>
-			</div> -->
-			<img src="<?php bloginfo('template_url'); ?>/design/layout/template/header-blog.png" style="display: block; margin: auto; width: 100%;">
+			</div>			 
 		</div>
 	</div>
-</div>
+</div> -->
 <div class="post bg-blue-smoke">
-	<div class="grid-12 post-container">
+	<div class="grid-9 post-container">
+		<div class="row-item padding-y">
+			<h1 class="row-item-title bold" style="font-size: 1.4em">Notícia</h1>
+		</div>
 		<div class="post-content">
 			<?php
 			$query = new WP_Query( 'cat=-3,-8' );
