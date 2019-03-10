@@ -10,10 +10,10 @@
 				<a href="sobre" class="navbar-link" title="Quem somos">Quem Somos</a>
 			</li>
 			<li class="navbar-item">
-				<a href="cursos" class="navbar-link" title="Cursos">Cursos</a>
+				<a href="http://localhost/abqrs/categoria-produto/cursos/" class="navbar-link" title="Cursos">Cursos</a>
 			</li>
 			<li class="navbar-item">
-				<a href="palestras" class="navbar-link" title="Palestras">Palestras</a>
+				<a href="http://localhost/abqrs/categoria-produto/palestras/" class="navbar-link" title="Palestras">Palestras</a>
 			</li>
 			<li class="navbar-item">
 				<a href="blog" class="navbar-link" title="Blog">Blog</a>

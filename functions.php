@@ -79,4 +79,7 @@ function add_comment_type() {
 add_action('init', 'add_comment_type');
 
 // Suporte ao Woocommerce
-add_theme_support( 'woocommerce' );
+function mytheme_add_woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
+add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
