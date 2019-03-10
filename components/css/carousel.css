@@ -41,8 +41,8 @@ header.carousel .item .carousel-banner img {
 header.carousel .item .carousel-content {
 	position: absolute;
 	left: 50%;
-	top: 90px;
-	transform: translate(-50%, 0);
+	top: 50%;
+	transform: translate(-50%, -50%);
 	width: 40%;
 	height: 300px;
 	text-align: center;
