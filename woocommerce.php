@@ -11,10 +11,7 @@
  */
 
 get_header();
-?>
-<div class="row padding-y">
-	<div class="row-container grid-9 padding-y">
-	<?php woocommerce_content(); ?>
-</div>
 
-<?php get_footer(); ?>
+woocommerce_content();
+
+get_footer();

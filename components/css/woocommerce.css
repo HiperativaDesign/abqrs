@@ -1,0 +1,39 @@
+/**
+ * Abq RS Woocommerce - Css
+ *
+ * Arquivo de estilização do woocommerce
+ *
+ * @package Abq RS
+ * @subpackage Associated
+ * @author Hiperativa Design
+ * @since 1.0.0
+ */
+
+/* Título da página */
+.row .row-container h1.page-title {
+	display: inline-block;
+
+	padding: 20px 0;
+
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.row .row-container .woocommerce-result-count, .woocommerce-notices-wrapper { 
+	display: inline-block;
+	height: 0;
+	overflow: hidden;
+	margin: 0;
+}
+
+.row .row-container .woocommerce-ordering {
+	margin: 20px 0;
+}
+
+.row .row-container ul.products {
+	padding: 20px 0;
+}
+
+.row .row-container {
+	
+}

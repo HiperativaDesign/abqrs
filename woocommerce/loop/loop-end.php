@@ -20,4 +20,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-</ul>
+		</ul>
+	</div>
+</div>
+
+<?php
+// get_template_part('/template/aboutpage/newsletter', 'null');
+// get_template_part('/template/cursopage/infos', 'null');
