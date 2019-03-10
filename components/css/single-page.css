@@ -33,6 +33,7 @@
 
 .article-item:nth-child(2) {
 	width: 40%;
+	padding-left: 20px;
 }
 
 .header-item .header-title, .header-item .header-author {
