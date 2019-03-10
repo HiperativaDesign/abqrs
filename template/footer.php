@@ -2,27 +2,27 @@
 	<div class="grid-12 footer-container">
 		<div class="footer-list">
 			<li class="footer-item">
-				<a href="#Sobre" class="footer-link" title="Sobre">Sobre</a>
+				<a href="http://localhost/abqrs/sobre/" class="footer-link" title="Sobre">Sobre</a>
 			</li>
 			<li class="footer-item">
-				<a href="#Blog" class="footer-link" title="Blog">Blog</a>
+				<a href="http://localhost/abqrs/categoria-produto/cursos/" class="footer-link" title="Cursos">Cursos</a>
 			</li>
 			<li class="footer-item">
-				<a href="#Cursos" class="footer-link" title="Cursos">Cursos</a>
+				<a href="http://localhost/abqrs/categoria-produto/palestras/" class="footer-link" title="Palestras">Palestras</a>
 			</li>
 			<li class="footer-item">
-				<a href="#Palestras" class="footer-link" title="Palestras">Palestras</a>
+				<a href="http://localhost/abqrs/blog" class="footer-link" title="Blog">Blog</a>
 			</li>
 			<li class="footer-item">
-				<a href="#Olimiadas" class="footer-link" title="Olimpíada de Química">Olimpíada de Química</a>
+				<a href="http://localhost/abqrs/olimpiada-de-quimica" class="footer-link" title="Olimpíada de Química">Olimpíada de Química</a>
 			</li>
 			<li class="footer-item">
-				<a href="#Contato" class="footer-link" title="Contato">Contato</a>
+				<a href="http://localhost/abqrs/contato" class="footer-link" title="Contato">Contato</a>
 			</li>
 		</div>
 		<div class="footer-list">
 			<li class="footer-item">
-				<a href="#Minha" class="footer-link" title="Minha conta">Minha conta</a>
+				<a href="http://localhost/abqrs/minha-conta/" class="footer-link" title="Minha conta">Minha conta</a>
 			</li>
 			<li class="footer-item">
 				<a href="#FAQ" class="footer-link" title="FAQ">FAQ</a>
