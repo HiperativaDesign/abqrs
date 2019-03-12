@@ -25,5 +25,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 </div>
 
 <?php
-// get_template_part('/template/aboutpage/newsletter', 'null');
-// get_template_part('/template/cursopage/infos', 'null');
+get_template_part('/template/cursopage/cursos', 'null');
+get_template_part('/template/aboutpage/newsletter', 'null');
+get_template_part('/template/cursopage/infos', 'null');
